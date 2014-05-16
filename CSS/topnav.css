@@ -1,22 +1,23 @@
 /* CSS Document */
 #body {
 	margin: 0px;
+	background-color: #99D9EA;
 
 }
 .topnav {
 	width: 100%;
 	position: fixed;
 	height: 44px;
-	background: #25292b;
+	background: #008080;
 	z-index:2;
 }
 .textnav {
 	color: #DAD6D4;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 34px;
-	float: left;
 	margin-right: 6px;
-	display: inline-block;
+
+	text-align:center;
 }
 .buttonnav {
 	display: inline-block;
@@ -25,8 +26,7 @@
 	width: 44px;
 }
 .content {
-	background-color: #C2660A;
-	overflow: auto;
+	background-color: #99D9EA;
 	padding: 0;
 	position : absolute;
 	top : 44px;
